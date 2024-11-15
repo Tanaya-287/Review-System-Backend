@@ -4,12 +4,11 @@
   "description": "The backend Project of review system",
   "main": "index.js",
   "type":"module",
-  "scripts":{    
-    "dev":"nodemon index.js"
+  "scripts":{   
     
-
-    
-  },
+  "start":"cd api && node index.js",
+    "dev":"cd api && nodemon index.js"
+    },
   "author": "Tanaya",
   "license": "ISC",
   "dependencies": {
